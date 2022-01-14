@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+  </head>  
+  <body>    
+    <p>HELLO WORLD!</p>
+    <p>This page was last updated on: 
+      <script>
+        <!-- //Hiding script starts here
+        document.write(document.lastModified);
+        //Stop hiding script here -->
+      </script>
+    </p>     
+      
+  </body>
+</html>
+<section>
+  <header><h3>Testing a Button</h3></header>
+  <button type="button" onclick="alert('You clicked the button')">
+    Click Me!
+  </button>
+</section>
+<section>
+<body>
+  <h1>Current Date and Time</h1>
+  <script>
+   now = new Date();
+   localtime = now.toString();
+   utctime = now.toGMTString();
+   document.write("<p><strong>Local time:</strong> "
+      + localtime + "</p>");
+   document.write("<p><strong>UTC time:</strong> "
+      + utctime + "</p>");
+   hours = now.getHours();
+   mins = now.getMinutes();
+   secs = now.getSeconds();
+   document.write("<h2>");
+   document.write(hours + ":" + mins + ":" +decs);
+   document.write("</h2>");
+   </script>
+ </body>
+</html>
